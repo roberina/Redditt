@@ -2,7 +2,7 @@ import praw
 import matplotlib.pyplot as plt
 import credentials
 
-#top secret data 
+
 reddit = praw.Reddit(client_id= credentials.client_id, \
                      client_secret=credentials.client_secret, \
                      user_agent='pedenimi/1.0 (By u/Roberina)', \
@@ -14,7 +14,7 @@ subreddit = reddit.subreddit("Eesti")
 
 top_subbreddit = subreddit.top()
 count = 0
-max = 10000
+max = 100
 print('success')
 words = []
 wordCount = {}
