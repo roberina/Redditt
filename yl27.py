@@ -76,6 +76,5 @@ plt.title('Top comments for: r/' + subredditname)
 plt.pie(sizes, labels=labels, autopct='%1.1f%%',
         shadow=True, startangle=90)
 plt.axis('equal')
-imgplot = plt.imshow("foto.png")
 
 plt.savefig("foto.png")
